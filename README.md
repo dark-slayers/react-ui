@@ -2,6 +2,8 @@
 
 ## 项目需要使用babel-cli的命令进行编译
 `npm install --save-dev babel-cli`
+或者使用项目的start命令启动项目的publish.bat
+`npm start`
 
 ## 调用项目的使用方法：
 在项目中安装本项目：<br>
