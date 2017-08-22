@@ -8,7 +8,6 @@
 `npm install --save-dev git+ssh://git@github.com:dark-slayers/react-ui.git`
 ### 调用例子：
 `import  EmptyForm  from 'react-ui/lib/form/EmptyForm.js';
-
 class JSONCreate extends EmptyForm {
   render() {
       return (
