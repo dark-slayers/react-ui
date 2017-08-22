@@ -1,12 +1,12 @@
 # 自定义React组件项目
-
-## 项目需要使用babel-cli的命令进行编译
+## 项目编译
+### 项目需要使用babel-cli的命令进行编译
 `npm install --save-dev babel-cli`
-或者使用项目的start命令启动项目的publish.bat
+### 或者使用项目的start命令启动项目的publish.bat
 `npm start`
 
-## 调用项目的使用方法：
-在项目中安装本项目：<br>
+## 项目调用
+### 在项目中安装本项目
 `npm install --save-dev git+ssh://git@github.com:dark-slayers/react-ui.git`
 ### 调用例子：
 ```
