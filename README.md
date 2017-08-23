@@ -4,7 +4,7 @@
 `npm start`
 ## 项目调用
 ### 在项目中安装本项目
-`npm install --save-dev git+ssh://git@github.com:dark-slayers/react-ui.git`
+`npm install --save-dev dark-slayers/react-ui.git`
 ### 调用例子：
 ```
 import  EmptyForm  from 'react-ui/lib/form/EmptyForm.js';
