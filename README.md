@@ -21,9 +21,6 @@ class JSONCreate extends EmptyForm {
               <div>
                   <button type="button" onClick={this.handleClick}>生成</button>
               </div>
-              <div>
-                <textarea rows="30" cols="130" value={this.state.showText}/>
-              </div>
           </div>
       );
   }
