@@ -1,5 +1,5 @@
 import React from 'react';
-import TextInput from './TextInput.jsx';
+import TextInput from './TextInput.js';
 /**标识符文本输入框，输入框需要提供：label、name、obj、addModel四个属性
 *label为输入框标签，name对应obj对象state参数相应KEY,
 *obj为调用此输入框的组件，obj需要有handleChange方法或者继承handleChange方法，
