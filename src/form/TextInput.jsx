@@ -4,6 +4,9 @@ import React from 'react';
 *obj为调用此输入框的组件，obj需要有handleChange方法或者继承handleChange方法
 */
 class TextInput extends React.Component {
+  isAddModel=()=>{
+    return true;
+  }
   render() {
       let obj = this.props.obj;
       const name = this.props.name;
@@ -23,10 +26,11 @@ class TextInput extends React.Component {
         borderStyle: 'solid',
         padding: 1
       };
+      let disabled=this.isAddModel();
       return (
         <div>
           <span style={labelStyle}>{label}</span>
-          <input style={inputStyle} type="text" name={name} value={obj.state[name]} onChange={obj.handleTextChange}/>
+          <input style={inputStyle} type="text" disabled={!disabled} name={name} value={obj.state[name]} onChange={obj.handleTextChange}/>
         </div>
       );
   }
